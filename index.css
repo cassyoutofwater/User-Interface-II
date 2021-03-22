@@ -78,7 +78,7 @@ a {
 /*------Body------*/
 
 .intro {
-    margin: 10% 0% 10% 0%;
+    margin: 10% 0% 5% 0%;
 }
 
 .intro img {
@@ -100,20 +100,91 @@ a {
     height: 30px;
 }
 
-.projects .img-row-1 img:first-child {
+/*------Image Row 1------*/
+
+.projects .img-row
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 10% 0% 10%;
+}
+
+.projects .img-row img:first-child {
     height: 250px;
     width: 250px;
     border-radius: 100%;
 }
 
-.projects .img-row-1 img:nth-child(2) {
+.projects .img-row img:nth-child(2) {
     height: 250px;
     width: 250px;
     border-radius: 100%;
 }
 
-.projects .img-row-1 img:nth-child(3) {
+.projects .img-row img:nth-child(3) {
     height: 250px;
     width: 250px;
     border-radius: 100%;
+}
+
+.projects .project-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 10% 0% 10%;
+}
+
+.projects .project-links a {
+    height: 30px;
+}
+
+/*------Image Row 2------*/
+
+.projects .img-row-2
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 10% 0% 10%;
+}
+
+.projects .img-row-2 img:first-child {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.projects .img-row-2 img:nth-child(2) {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.projects .img-row-2 img:nth-child(3) {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+/*------Footer------*/
+
+footer {
+    background-color: #334e57;
+    margin-top: 5%;
+    padding: 5%;
+    border-top: white dotted 2px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact a {
+    font-size: 2rem;
+    width: auto;
+    padding: 1%;
+}
+
+.contact a:hover {
+    color: white;
+    border: white dotted 2px;
 }
