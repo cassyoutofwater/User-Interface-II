@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End Reset */
+
+
+
+/*------Navigation------*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 5% 1% 3%;
+}
+
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5rem;
+    margin-right: 30%;
+}
+
+p {
+    font-family: 'Syne Mono', monospace;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.05rem;
+    text-decoration: none;
+    color: black;
+    border: solid black 2px;
+    width: 10%;
+    font-family: 'Syne Mono', monospace;
+}
+
+a:hover {
+    color:  #334e57;
+    border:  #334e57 dashed 2px;
+}
+/*------Body Index Page------*/
+
+.intro {
+    margin: 10% 0% 5% 0%;
+}
+
+.intro img {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+.intro .intro-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.intro .intro-button a{
+    height: 30px;
+}
+
+/*------Image Row 1 Index Page------*/
+
+.projects .img-row
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 10% 0% 10%;
+}
+
+.projects .img-row img:first-child {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.projects .img-row img:nth-child(2) {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.projects .img-row img:nth-child(3) {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.projects .project-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 10% 0% 10%;
+}
+
+.projects .project-links a {
+    height: 30px;
+}
+
+/*------Image Row 2 Index Page------*/
+
+.projects .img-row-2
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 10% 0% 10%;
+}
+
+.projects .img-row-2 img:first-child {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.projects .img-row-2 img:nth-child(2) {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.projects .img-row-2 img:nth-child(3) {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+/*------Footer------*/
+
+footer {
+    background-color: #334e57;
+    margin-top: 5%;
+    padding: 5%;
+    border-top: white dotted 2px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact a {
+    font-size: 2rem;
+    width: auto;
+    padding: 1%;
+}
+
+.contact a:hover {
+    color: white;
+    border: white dashed 2px;
+}
+
+/*------About Page------*/
+
+h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-me .container {
+    display: flex;
+    padding-bottom: 5%;
+    margin: 0% 5% 0% 5%;
+    
+
+}
+
+.about-me img {
+    height: 200px;
+    width: 200px;
+    border: #334e57 solid 1px;
+    border-radius: 100%;
+    margin-left: 15%;
+}
+
+.about-me .container p {
+    width: 50%;
+    margin: 7% 0% 5% 5%;
+}
+
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.social .more {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.social .pngs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.social .pngs a {
+    display: flex;
+    border: none;
+    margin: 10% 30% 0% 0%;
+}
+
+
+
