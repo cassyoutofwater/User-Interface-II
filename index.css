@@ -58,10 +58,16 @@ nav {
     justify-content: space-between;
     margin: 1% 5% 1% 3%;
 }
+
+
 h1 {
     font-family: 'Parisienne', cursive;
-    font-size: 2rem;
-    margin-right: 40%;
+    font-size: 2.5rem;
+    margin-right: 30%;
+}
+
+p {
+    font-family: 'Syne Mono', monospace;
 }
 
 a {
@@ -72,10 +78,15 @@ a {
     text-decoration: none;
     color: black;
     border: solid black 2px;
-    width: 8%;
+    width: 10%;
+    font-family: 'Syne Mono', monospace;
 }
 
-/*------Body------*/
+a:hover {
+    color:  #334e57;
+    border:  #334e57 dashed 2px;
+}
+/*------Body Index Page------*/
 
 .intro {
     margin: 10% 0% 5% 0%;
@@ -100,7 +111,7 @@ a {
     height: 30px;
 }
 
-/*------Image Row 1------*/
+/*------Image Row 1 Index Page------*/
 
 .projects .img-row
 {
@@ -137,7 +148,7 @@ a {
     height: 30px;
 }
 
-/*------Image Row 2------*/
+/*------Image Row 2 Index Page------*/
 
 .projects .img-row-2
 {
@@ -186,5 +197,71 @@ footer {
 
 .contact a:hover {
     color: white;
-    border: white dotted 2px;
+    border: white dashed 2px;
 }
+
+/*------About Page------*/
+
+h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-me .container {
+    display: flex;
+    padding-bottom: 5%;
+    margin: 0% 5% 0% 5%;
+    
+
+}
+
+.about-me img {
+    height: 200px;
+    width: 200px;
+    border: #334e57 solid 1px;
+    border-radius: 100%;
+    margin-left: 15%;
+}
+
+.about-me .container p {
+    width: 50%;
+    margin: 7% 0% 5% 5%;
+}
+
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.social .more {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.social .pngs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.social .pngs a {
+    display: flex;
+    border: none;
+    margin: 10% 30% 0% 0%;
+}
+
+
+
